@@ -4005,6 +4005,7 @@ input[type="button"].btn-block {
   display: block;
 }
 
+
 .navbar {
   position: relative;
   display: flex;
@@ -4087,6 +4088,11 @@ input[type="button"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%;
 }
+
+.navbar-correct a:hover {
+  color:var(--primary) !important;
+  background-color: white !important;
+} 
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
